@@ -1,6 +1,8 @@
 function cambiarTitulo() {
   console.log('cambiarTitulo');
 
-  const cambiarTitulo = document.querySelector('section div h1');
-  cambiarTitulo.textContent = 'prueba';
+  let titulo = document.getElementById('tituloPrincipal');
+  console.log(titulo);
+  titulo.className = 'text-primary';
+  titulo.innerHTML = 'Nuevo Título';
 }
